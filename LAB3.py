@@ -2,24 +2,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def f(x):
-    """
-    Funcion polinómica de tercer grado.
-    f(x) = 3x^3 - 10x^2 - 56x + 50
-    """
     return 3*x**3 - 10*x**2 - 56*x + 50
 
 def df(x):
-    """
-    Primera derivada de f(x):
-    f'(x) = 9x^2 - 20x - 56
-    """
     return 9*x**2 - 20*x - 56
 
 def d2f(x):
-    """
-    Segunda derivada de f(x):
-    f''(x) = 18x - 20
-    """
     return 18*x - 20
 
 # ---------------------------
